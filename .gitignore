@@ -1,0 +1,36 @@
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+portal-be
+
+# Go build/test output
+*.test
+*.out
+*.o
+*.a
+coverage.out
+
+# Dependency vendor
+vendor/
+
+# Logs
+*.log
+
+# Environment / config sensitif
+.env
+.env.*
+config.yaml
+config.json
+
+# IDE / Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated
+.DS_Store
+Thumbs.db
