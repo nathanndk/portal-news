@@ -36,12 +36,12 @@ func NewConfig() *Config{
 		},
 		Psql: PsqlDB{
 			Host: viper.GetString("DATABASE_HOST"),
-			Port: viper.GetString("DATABASE_HOST"),
-			User: viper.GetString("DATABASE_HOST"),
-			Password: viper.GetString("DATABASE_HOST"),
-			DBName: viper.GetString("DATABASE_HOST"),
-			DBMaxOpen: viper.GetString("DATABASE_HOST"),
-			DBMaxIdle: viper.GetString("DATABASE_HOST"),
+			Port: viper.GetString("DATABASE_PORT"),
+			User: viper.GetString("DATABASE_USER"),
+			Password: viper.GetString("DATABASE_PASSWORD"),
+			DBName: viper.GetString("DATABASE_NAME"),
+			DBMaxOpen: viper.GetString("DATABASE_MAX_OPEN_CONNECTION"),
+			DBMaxIdle: viper.GetString("DATABASE_MAX_IDLE_CONNECTION"),
 		},
 	}
 }
